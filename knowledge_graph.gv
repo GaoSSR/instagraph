@@ -1,0 +1,10 @@
+// Knowledge Graph
+digraph {
+	1 [label="测试 (专业)"]
+	2 [label="节点 (概念)"]
+	3 [label="标签 (关键词)"]
+	4 [label="关系描述 (连接词)"]
+	1 -> 2 [label="包含"]
+	2 -> 3 [label="包含"]
+	2 -> 4 [label="描述"]
+}
